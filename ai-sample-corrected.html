@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rayhann Abante - Portfolio</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: lightgray;
+            color: #222;
+        }
+
+        header {
+            background-color: navy;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #333;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+        }
+
+        nav a:hover,
+        nav a:focus {
+            color: yellow;
+            outline: 2px solid yellow;
+            outline-offset: 4px;
+        }
+
+        .home {
+            background-color: white;
+            text-align: center;
+            padding: 60px 20px;
+        }
+
+        .home h1 {
+            font-size: 40px;
+            color: navy;
+        }
+
+        .home p {
+            font-size: 20px;
+        }
+
+        .button {
+            display: inline-block;
+            background-color: navy;
+            color: white;
+            padding: 12px 20px;
+            text-decoration: none;
+            margin-top: 15px;
+        }
+
+        .button:hover,
+        .button:focus {
+            background-color: blue;
+            outline: 2px solid yellow;
+            outline-offset: 4px;
+        }
+
+        .section {
+            background-color: white;
+            margin: 20px;
+            padding: 30px;
+            text-align: center;
+        }
+
+        .skills {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .skill-box {
+            background-color: lightblue;
+            padding: 20px;
+            width: 200px;
+        }
+
+        .contact-info a {
+            color: navy;
+            text-decoration: underline;
+        }
+
+        .contact-info a:hover,
+        .contact-info a:focus {
+            color: blue;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Rayhann Abante</h1>
+        <p>Welcome to my personal portfolio website</p>
+        <nav aria-label="Main Navigation">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="home" id="home">
+            <h2>Hello, I am Rayhann Abante</h2>
+            <p>I am a beginner web developer who enjoys creating websites.</p>
+            <a class="button" href="#contact">Contact Me</a>
+        </section>
+
+        <section class="section" id="about">
+            <h2>About Me</h2>
+            <p>
+                My name is Rayhann Abante. I am learning HTML, CSS, and JavaScript.
+                I enjoy technology and creating simple websites.
+            </p>
+        </section>
+
+        <section class="section" id="skills">
+            <h2>My Skills</h2>
+            <div class="skills">
+                <div class="skill-box">
+                    <h3>HTML</h3>
+                    <p>I can create the structure of a webpage.</p>
+                </div>
+
+                <div class="skill-box">
+                    <h3>CSS</h3>
+                    <p>I can add colors and styles to a webpage.</p>
+                </div>
+
+                <div class="skill-box">
+                    <h3>JavaScript</h3>
+                    <p>I am learning how to make websites interactive.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section contact-info" id="contact">
+            <h2>Contact Me</h2>
+            <p>Email: <a href="mailto:rabante@feudiliman.edu.ph">rabante@feudiliman.edu.ph</a></p>
+            <p>Phone: <a href="tel:09172001418">0917-200-1418</a></p>
+        </section>
+    </main>
+
+    <footer>
+        <p> & copy ; 2026 My Portfolio. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
